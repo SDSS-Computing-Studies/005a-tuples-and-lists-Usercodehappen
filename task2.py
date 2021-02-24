@@ -23,10 +23,12 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
-words = []
+
+
+ words = []
 
 for i in range(0,5):
     a = input("Enter a word: ").strip()
     words.append(a)
- 
- print(words)   
+
+print(words)

@@ -23,9 +23,9 @@ Enter an integer:-1
 
 The largest number you entered is 92
 """
-numlist[]
+numlist = []
 
-while True: 
+while True:
     a = input("Enter an integer: ")
     a = int(a)
     if a == -1:
